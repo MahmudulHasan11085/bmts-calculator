@@ -1,0 +1,48 @@
+:root {
+    --bg: #ffffff;
+    --text: #111;
+    --card: #f4f4f4;
+    --border: #ddd;
+}
+
+body.dark {
+    --bg: #111;
+    --text: #f4f4f4;
+    --card: #1e1e1e;
+    --border: #333;
+}
+
+body {
+    font-family: Arial;
+    margin: 20px;
+    background: var(--bg);
+    color: var(--text);
+}
+
+input, button {
+    padding: 6px;
+    margin: 5px;
+}
+
+.model {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td, th {
+    border: 1px solid var(--border);
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
